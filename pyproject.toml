@@ -1,0 +1,13 @@
+[project]
+name = "python_mini_project"
+version = "0.1.0"
+description = "A CLI tool for summarizing csv data"
+authors = [{ name = "Sohrab Salehin"}]
+dependencies = [
+    "typer[all]",
+    "pandas"
+]
+
+
+[project.scripts]
+summarize = "summarizing.cli:app"
